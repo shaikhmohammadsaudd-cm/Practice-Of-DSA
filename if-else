@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class MaxOrMinNum {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int Number1 = sc.nextInt();
+        int Number2 = sc.nextInt();
+        if (Number1 > Number2) {
+            System.out.println("Number1 is maximum");
+        } else if(Number1 < Number2) {
+            System.out.println("Number2 is maximum");
+        }else {
+            System.out.println("Both Number are equal");
+        }
+    }
+}
